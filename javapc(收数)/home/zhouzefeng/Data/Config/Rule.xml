@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<Rules>
+  <!--
+        规则名称：c1
+        数据类型：C1
+    -->
+  <Rule>
+    <!--规则名（唯一）-->
+    <RuleName type="string">3FEE</RuleName>
+    <!--包类型（对应数据结构的类型，唯一）-->
+    <TypeName type="string">3FEE</TypeName>
+    <!--标记包开始的字段长度-->
+    <MarkLength type="int">4</MarkLength>
+    <!--标识的字段-->
+    <MarkStrHex type="string">00FFFF00</MarkStrHex>
+    <!--包类型的起始位置-->
+    <TypeIndex type="int" index="6">6</TypeIndex>
+    <!--表示包类型的长度-->
+    <TypeLength type="int">2</TypeLength>
+    <!--正文数据的起始位置-->
+    <DataIndex type="int">8</DataIndex>
+    <!--表示正文数据长度的起始位置-->
+    <DataLengthIndex type="int">5</DataLengthIndex>
+    <!--负载长度的字段长度-->
+    <DataLength type="int">1</DataLength>
+    <!--数据总长长度-->
+    <TotalLength type="int" index="32">32</TotalLength>
+  </Rule>
+  
+</Rules>

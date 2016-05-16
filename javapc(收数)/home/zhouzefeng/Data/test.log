@@ -1,0 +1,14 @@
+C:\Users\myp\Desktop\智慧大棚软件打包\javapc(收数)\home\zhouzefeng\Data\Config/DataType.xml
+启用规则数:1
+停用规则数:0
+启用类型数1
+停用类型数:0
+	结果：网络口-192.168.10.4:8002-打开成功！
+	结果：网络口-192.168.10.3:8001-打开成功！
+	结果：网络口-127.0.0.1:1300-打开成功！请等待验证！
+验证通过！
+	结果：文本出口-1:date-打开成功！
+JavaPCAnalysis [版本 1.0] 保留所有权利。
+
+DataCollection Console>sf启用情况：false
+sf启用情况：false

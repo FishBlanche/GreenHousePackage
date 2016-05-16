@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<DataTypes>
+  <!--
+        数据类型：C1
+    -->
+  <DataType>
+    <!--数据类型（唯一）-->
+    <Type type="string">3FEE</Type>
+    <!--数据名称-->
+    <Name type="string"></Name>
+    <!--映射表格（唯一）-->
+    <MapTable type="string">SensingData</MapTable>
+    <!--对应规则-->
+    <UseRule type="string">3FEE</UseRule>
+    <!--数据实体-->
+    <Propertys>
+      <!--属性列表ColTable唯一-->
+      <Property Mean="" ColTable="Moteid_ID" Index="0" Lenght="1" Type="int"/>
+      <Property Mean="" ColTable="sample_num" Index="1" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="xxxTemperature" Index="3" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="xxxVoltage" Index="5" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="humidity" Index="7" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="temperature" Index="9" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="photo_active" Index="11" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="total_solar" Index="13" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="co2 " Index="15" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="A0" Index="17" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="A1" Index="19" Lenght="2" Type="int"/>
+      <Property Mean="" ColTable="nodetype" Index="21" Lenght="2" Type="int"/>
+    </Propertys>
+    <!--数据总长-->
+    <DataLength type="int">23</DataLength>
+  </DataType>
+</DataTypes>
